@@ -16,6 +16,10 @@ function Website() {
       <Fifthbar />
       <Sixthbar />
       <Seventhbar />
+      <div>
+        <hr className="border-red-500 border-spacing-9 my-5" />
+        <div>hello</div>
+      </div>
     </div>
   );
 }
