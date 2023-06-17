@@ -1,9 +1,11 @@
-function App() {
+import Website from "./component/website/Website";
+
+const App = () => {
   return (
-    <div className="App">
-      Hello
+    <div>
+      <Website />
     </div>
-  );
+  )
 }
 
 export default App;
