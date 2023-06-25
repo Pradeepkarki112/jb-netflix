@@ -1,14 +1,15 @@
 import Firstbar from "./Firstbar";
-import Fourthbar from "./Fourthbar";
 import Secondbar from "./Secondbar";
 import Thirdbar from "./Thirdbar";
+import Fourthbar from "./Fourthbar";
 import Fifthbar from "./Fifthbar";
 import Sixthbar from "./Sixthbar";
 import Seventhbar from "./Seventhbar";
+// import Experiment from "../../Experiment";
 
 function Website() {
   return (
-    <div>
+    <div className="bg-black text-white">
       <Firstbar />
       <Secondbar />
       <Thirdbar />
@@ -16,10 +17,7 @@ function Website() {
       <Fifthbar />
       <Sixthbar />
       <Seventhbar />
-      <div>
-        <hr className="border-red-500 border-spacing-9 my-5" />
-        <div>Prank</div>
-      </div>
+      {/* <Experiment /> */}
     </div>
   );
 }
